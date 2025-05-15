@@ -1,0 +1,11 @@
+Primeramente inicie copiando el repositorio, instalando nodemon y express.
+Luego en el package.json en los scripts inicialize el nodemon en "dev".
+Luego comence con las reglas, habian muchas funciones que eran iguales a las de la practica, 
+en este caso el de las longitudes, el de contener los caracteres, el de contener al menos un digito. 
+Para la regla de contener espacios en blanco pense en la misma forma que se utilizo para separar el 
+texto en partes, en este caso dentro de la practica, era separar las direcciones en diferentes partes, para esta ocacion utilice la misma logica,
+si se podia separar en partes debido a los espacios en blanco, significaba que efectivamente, habian espacios en blanco.
+Para la ultima regla, separe la ultima letra en una constante, luego verifique que esa constante no estuviera incluida dentro de los caractere_prohibidos.
+Para la seccion del index.js era exactamente lo mismo que la resolucion del parcial de practicas, asi que recorde la estructura y utilice lo mismo, validar las reglas en el array de usuarios,
+luego filtrarlo y mapearlo mostrando solamente los nombres y los mails de los usuarios que no cumplan con las reglas.
+Para los usuarios que si la cumplan era la misma logica, unicamente que esta vez verificamos los que la cumplen y los que no las cumplen, los descartamos.
